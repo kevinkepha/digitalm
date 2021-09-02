@@ -1,5 +1,5 @@
 <?php
-$ff = file_get_contents("http://shop.digicomm.ae/xml/Report_20210704.xml");
+$ff = file_get_contents("http://www.digitalmara.co.ke/xml/Report_20210801.xml");
 
 preg_match_all('/<ss:Row>([^`]*?)<\/ss:Row>/', $ff, $m);
 $data = "Advert,Type,Time Played";

@@ -1,5 +1,5 @@
 <?php
-$ff = file_get_contents("http://shop.digicomm.ae/xml/Report_Weekly_16-02-20.xml");
+$ff = file_get_contents("http://www.digitalmara.co.ke/xml/Report_Weekly_16-02-20.xml");
 
 preg_match_all('/<ss:Row>([^`]*?)<\/ss:Row>/', $ff, $m);
 $data = "From,To,Time";
